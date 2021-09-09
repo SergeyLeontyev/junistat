@@ -1,0 +1,530 @@
+.block
+	max-width: 1180px
+	width: 100%
+	display: flex
+	justify-content: space-between
+	&-menu
+		align-items: center
+	&-header
+		align-items: flex-end
+	&-trainers
+		flex-direction: column
+		justify-content: center
+	&-rating
+		flex-direction: column
+		align-items: flex-start
+	&-price
+		flex-direction: column
+		justify-content: center
+		align-items: center
+	&-social
+		align-items: center
+	&-help
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		max-width: 768px
+	&-start
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		z-index: 2
+	&-command
+		display: flex
+		flex-direction: column
+.trainers
+	width: 100%
+	margin-bottom: 90px
+	&-box
+		width: 100%
+		height: 560px
+		position: relative
+		display: flex
+		align-items: center
+	&-slider
+		height: 410px
+		width: 100vw
+		&-card
+			width: 312px!important
+			height: 410px!important
+			margin: 0 auto
+			position: relative
+			background: url(../img/bg-card-train.svg) no-repeat bottom center
+			background-size: contain
+		&-photo
+			width: 164px!important
+			height: 164px!important
+	&-phone
+		&-img
+			position: absolute
+			left: -4px
+			top: 0
+			&:before
+				position: absolute
+				content: ''
+				width: 195px
+				height: 425px
+				box-shadow: 1px 1px 40px #fff
+				top: 20px
+				left: 100px
+	&-card
+		&-name
+			font-weight: 600
+			font-size: 21px
+			line-height: 25px
+			text-align: center
+			color: #15191E
+			margin: 0
+			margin-bottom: 16px
+		&-country
+			display: flex
+			justify-content: center
+			align-items: center
+			margin-bottom: 16px
+		&-exp
+			font-size: 14px
+			line-height: 17px
+			color: #15191E
+			margin: 0
+			text-align: center
+		&-photo
+			display: flex
+			justify-content: center
+			margin-bottom: 25px
+	&-country
+		&-text
+			font-size: 14px
+			line-height: 17px
+			color: #15191E
+			margin: 0
+			text-align: center
+.flag
+	width: 19px!important
+	height: 14px
+	margin-right: 10px
+	&-rus
+		margin-right: 10px
+
+.disabled
+	display: none
+.carousel
+	position: relative
+	direction: rtl
+	width: 100%
+	&:before
+		position: absolute
+		content: ''
+		top: -10px
+		left: 246px
+		width: 195px
+		height: 425px
+		background: linear-gradient(90deg, #17181A 0%, rgba(23, 24, 26, 0) 100%)
+		z-index: 2
+	.over-x-hidden
+		overflow-x: hidden
+		width: 150%
+		margin-right: -50%
+	
+.topPlayer
+	width: 100%
+	height: auto
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding: 88px 0px
+	background: #1F2022
+	margin-bottom: 88px
+	&-slider
+		width: 100%
+		overflow: hidden
+		.carousel
+			&-2
+				max-width: 1140px
+				margin: 0 auto
+			.over-x-hidden
+				width: 150%
+				.owl-stage	
+					.owl-item
+						min-width: 272px!important
+						width: 272px !important
+	&-card
+		display: flex
+		flex-direction: column
+		align-items: center
+		margin: 0 auto
+		min-width: 272px!important
+		height: 393px!important
+		background: url(../img/bg-card-player.svg) no-repeat bottom center
+		background-size: contain
+		&__detail
+			background: url(../img/bg-card-player-silver.svg) no-repeat bottom center
+			background-size: contain
+	&-photo
+		width: 164px
+		height: 164px
+		margin-bottom: 24px
+	&-name
+		margin: 0
+		margin-bottom: 16px
+		color: #000
+		font-weight: 600
+		font-size: 21px
+		line-height: 25px
+		text-align: center
+		&__detail
+			font-style: normal
+			font-weight: 600
+			font-size: 21px
+			line-height: 25px
+			color: #fff
+	&-rating
+		display: flex
+		align-items: center
+		justify-content: space-between
+		padding: 0px 24px
+		width: 132px
+		height: 49px
+		margin: 0
+		margin-bottom: 16px
+		background: linear-gradient(180deg, #1170FF 0%, #0034B9 100%)
+		border-radius: 32px
+		font-weight: normal
+		font-family: $fontInter
+		font-size: 12px
+		line-height: 15px
+		box-sizing: border-box
+		span
+			font-style: normal
+			font-weight: 600
+			font-size: 21px
+			line-height: 25px
+	&-info
+		display: flex
+		color: #000
+	&-flag
+		width: 22px
+		height: 17px
+		margin-right: 8px
+
+
+
+//Блок рейтинга	
+.rating
+	margin-bottom: 90px
+	&-block
+		&-steps
+			position: relative
+			width: 100%
+			margin-bottom: 100px
+		&-stat
+			display: flex
+			flex-direction: column
+			align-items: center
+			width: 100%
+	&-steps
+		display: flex
+		align-items: flex-start
+		margin-bottom: 90px
+		&-two
+			margin-bottom: 200px
+		&-img
+			margin-top: -4px
+			margin-right: 24px
+	&-img
+		position: absolute
+		top: 0
+		right: 0
+		&-one
+			top: -30px
+			right: 80px
+		&-two
+			top: auto
+			bottom: -40px
+	&-stat
+		&-img
+			display: flex
+			width: 100%
+			justify-content: space-between
+			align-items: center
+			margin-bottom: 50px
+			position: relative
+			height: 560px
+
+//Блок тарифов
+.price
+	background-color: #1F2022
+	padding-top: 90px
+	padding-bottom: 90px
+	&-block
+		&-card
+			max-width: 1030px
+			width: 100%
+			height: 430px
+			display: flex
+			justify-content: space-between
+			align-items: flex-start
+			margin-bottom: 65px
+			position: relative
+		&-result
+			display: flex
+			justify-content: space-between
+			width: 100%
+	&-card
+		box-sizing: border-box
+		width: 312px
+		height: 375px
+		display: flex
+		justify-content: center
+		align-items: flex-end
+		padding-bottom: 70px
+		position: absolute
+		top: 0
+		&-bronze
+			background: url(../img/cards-price/card-bronze.svg) no-repeat center
+			background-size: cover
+		&-gold
+			background: url(../img/cards-price/card-gold.svg) no-repeat center
+			background-size: cover
+			left: 50%
+			transform: translateX(-50%)
+		&-platinum
+			background: url(../img/cards-price/card-platinum.svg) no-repeat center
+			background-size: cover
+			right: 0
+		&-text
+			height: 146px
+			display: flex
+			flex-direction: column
+			box-sizing: border-box
+			justify-content: space-between
+		//Текст в карточках
+		&-title
+			font-weight: 600
+			font-size: 24px
+			line-height: 29px
+			text-align: center
+			margin: 0
+			&__dark
+				color: #15191E
+		&-old
+			font-size: 24px
+			line-height: 32px
+			color: rgba(#fff, 0.5)
+			text-align: center
+			position: relative
+			margin: 0
+			&:before
+				position: absolute
+				content: ''
+				left: 0
+				width: 109px
+				height: 2px
+				background-color: #DD172C
+    transform: rotateZ(-15deg)
+    bottom: 15px
+			&__dark
+				color: rgba(#15191E, 0.5)
+		&-new
+			font-weight: 600
+			font-size: 32px
+			line-height: 39px
+			text-align: center
+			margin: 0
+			margin-bottom: 25px
+			&__dark
+				color: #15191E
+	&-result
+		display: flex
+		align-items: center
+		&-img
+			margin-right: 20px
+.card
+	&-hot
+		position: absolute
+		bottom: -56px
+		margin: 0
+		width: 283px
+		height: 40px
+		display: flex
+		justify-content: center
+		align-items: center
+		background: linear-gradient(180deg, #FFE27B 0%, #B78C1E 100%)
+		border-radius: 16px
+		color: #15191E
+		font-weight: 600
+		font-size: 16px
+		line-height: 19px
+
+//стили картинок в блоке Rating-stat-img
+.stat
+	&-img
+		position: absolute
+		top: auto
+		left: 0
+		&-2
+			left: 403px
+		&-3
+			left: auto
+			right: 0
+
+//Стили блока Частые вопросы
+.help
+	padding-top: 90px
+	padding-bottom: 90px
+
+//Стили табов
+.questions
+	&-help
+		width: 100%
+	&-box
+		list-style: none
+		margin: 0
+		padding: 0
+		box-sizing: border-box
+	&-list
+		margin-bottom: 24px
+	&-article
+		box-sizing: border-box
+		width: 100%
+		padding-left: 24px
+		padding-right: 32px
+		height: 50px
+		display: flex
+		justify-content: flex-start
+		cursor: pointer
+		align-items: center
+		border-radius: 8px
+		background-color: #2C2C2C
+		font-size: 16px
+		line-height: 19px
+		position: relative
+		margin: 0
+		&:before
+			position: absolute
+			content: ''
+			width: 12px
+			height: 7px
+			background: url(../img/icons/arrow.svg) no-repeat center
+			background-size: cover
+			right: 32px
+			top: 50%
+			transition: 1s
+		&-active
+			&:before
+				transform: rotate(180deg)
+				transition: 1s
+	&-answer
+		box-sizing: border-box
+		font-size: 21px
+		line-height: 32px
+		padding: 0px 24px
+		box-sizing: border-box
+		transition: 1s
+		display: none
+		padding-top: 16px
+		margin: 0
+		&-active
+			display: block
+		
+
+//Блок Начни сейчас
+.start
+	box-sizing: border-box
+	width: 100%
+	height: 430px
+	position: relative
+	overflow: hidden
+	&-parallax
+		&-bg
+			width: 100%
+			height: 150vh
+			background: url(../img/bg-start.png) no-repeat right
+			background-size: cover
+			position: absolute
+			left: 0
+			z-index: 0
+			&:before
+				position: absolute
+				content: ''
+				width: 100%
+				height: 100%
+				background-color: rgba(23, 24, 26, 0.8)
+
+//Блок соцсетей
+.social
+	width: 100%
+	padding: 176px 0px
+	background-color: rgba(#fff, 0.05)
+	&-block
+		&-link
+			display: flex
+			flex-direction: column
+			align-items: center
+	&-link
+		display: flex
+		align-items: center
+		justify-content: center
+		width: 255px
+		height: 48px
+		border-radius: 24px
+		margin-bottom: 32px
+		&:nth-child(5)
+			margin-bottom: 0
+		&-vk
+			background-color: #5181B8
+		&-inst
+			background-color: #262626
+		&-youtube
+			background-color: #FF0000
+		&-tgm
+			background-color: #419FD9
+		&-fb
+			background-color: #4267B2
+			margin-bottom: 0
+		&-text
+			margin: 0		
+			line-height: 16px
+			font-size: 16px
+			width: 73px
+		&-img
+			display: flex
+			width: 32px
+			justify-content: center
+			align-items: center
+			margin-right: 15px
+
+
+.command
+	width: 100%
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding: 88px 0px
+	&-cards
+		width: 1180px
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-card
+		width: 160px
+	&-photo
+		width: 160px
+		height: 160px
+	&-name
+		text-align: center
+		margin: 0
+		margin-top: 24px
+		font-family: $fontInter
+		font-style: normal
+		font-weight: 600
+		font-size: 16px
+		line-height: 19px
+		text-align: center
+	&-hobby
+		font-family: $fontInter
+		font-style: normal
+		font-weight: normal
+		font-size: 16px
+		line-height: 19px
+		text-align: center
+		margin: 0

@@ -1,0 +1,64 @@
+<svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="21" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.5C1 1.67157 1.67157 1 2.5 1H20.5C21.3284 1 22 1.67157 22 2.5V14.5C22 15.3284 21.3284 16 20.5 16H2.5C1.67157 16 1 15.3284 1 14.5V2.5Z" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<g filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.5C1 1.67157 1.67157 1 2.5 1H20.5C21.3284 1 22 1.67157 22 2.5V14.5C22 15.3284 21.3284 16 20.5 16H2.5C1.67157 16 1 15.3284 1 14.5V2.5Z" fill="url(#paint0_linear)"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H22V16H1V1Z" fill="url(#paint1_linear)"/>
+<g filter="url(#filter1_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.0363545 -0.437332L8.99821 5.60751V2.5332e-06H13.9982V5.60751L22.9601 -0.437332L24.0784 1.22074L16.9929 6H21.9982V11H16.9929L24.0784 15.7793L22.9601 17.4373L13.9982 11.3925V17H8.99821V11.3925L0.0363545 17.4373L-1.08203 15.7793L6.00351 11H0.998206V6H6.00351L-1.08203 1.22074L0.0363545 -0.437332Z" fill="url(#paint2_linear)"/>
+</g>
+<path d="M15 5.74915L24.499 -0.5" stroke="#DB1F35" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M16.0078 11.2731L24.5232 17.0128" stroke="#DB1F35" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M7.00336 5.73285L-1.87891 -0.253235" stroke="#DB1F35" stroke-width="0.5" stroke-linecap="round"/>
+<path d="M7.96674 11.2037L-1.87891 17.7328" stroke="#DB1F35" stroke-width="0.5" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 10H10V16H13V10H22V7H13V1H10V7H1V10Z" fill="url(#paint3_linear)"/>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="21" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.5C1 1.67157 1.67157 1 2.5 1H20.5C21.3284 1 22 1.67157 22 2.5V14.5C22 15.3284 21.3284 16 20.5 16H2.5C1.67157 16 1 15.3284 1 14.5V2.5Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0.5" width="23" height="17" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="0.5"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="-1.08203" y="-0.437332" width="25.1605" height="17.8747" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="1" y1="1" x2="1" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#F0F0F0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1" y1="1" x2="1" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0A17A7"/>
+<stop offset="1" stop-color="#030E88"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="-1.08203" y1="-0.437332" x2="-1.08203" y2="17.4373" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#F0F0F0"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="1" y1="1" x2="1" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E6273E"/>
+<stop offset="1" stop-color="#CF152B"/>
+</linearGradient>
+<clipPath id="clip0">
+<path d="M0 0H23V17H0V0Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

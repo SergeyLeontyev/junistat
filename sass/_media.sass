@@ -1,0 +1,544 @@
+@media screen and ( max-width: 1199px )
+	section
+		overflow: hidden
+	.block
+		max-width: 960px
+		&-menu
+			max-width: none
+			padding: 0px 15px
+		&-help
+			max-width: 768px
+		&-command
+			overflow-y: scroll
+	.header
+		&-img
+			width: 320px
+			height: auto
+			margin-bottom: 100px
+	.menu
+		&-logo
+			width: 250px
+			height: 30px
+
+	.stat
+		&-img
+			width: 320px
+			height: auto
+			&-2
+				left: 320px
+	.rating
+		&-img
+			&-one
+				width: 320px
+				transform: translateX(40px)
+			&-two
+				width: 480px
+				height: auto
+				bottom: 0
+				transform: translateX(40px)
+	.joinCommand
+		.block
+			align-items: center
+		&-text
+			max-width: 515px
+		&-img
+			max-width: none
+			width: auto
+			height: 282px
+	.joinHelp
+		&-article
+			max-width: 440px
+		&-warn
+			max-width: 440px
+	.price
+		&-card
+			width: 280px
+			height: 340px
+			padding-bottom: 40px
+			&-text
+				height: 125px
+			&-title
+				font-size: 20px
+				line-height: 24px
+			&-old
+				font-size: 20px
+    line-height: 24px
+				&:before
+					width: 95px
+					bottom: 10px
+			&-new
+				margin-bottom: 15px
+				font-size: 24px
+    line-height: 28px
+
+@media screen and ( max-width: 991px )
+	.block
+		max-width: 690px
+		&-header
+			flex-direction: column
+			align-items: center
+		&-menu
+			max-width: 100%
+			padding: 0px 40px
+		&-social
+			flex-direction: column
+	.menu
+		&-nav
+			display: none
+		&-logo
+			width: 295px
+			height: 36px
+		&-lang
+			margin-right: 24px
+		&-burger
+			display: block
+	.header
+		background: linear-gradient(0deg, rgba(23,24,26,0.8), rgba(23,24,26,0.8)),url(../img/bg.png) no-repeat bottom
+		background-size: cover
+		padding-bottom: 0
+		&-text
+			margin-right: auto
+			margin-bottom: 65px
+		&-img
+			display: none
+			margin-bottom: 65px
+			&-two
+				display: block
+				width: 520px
+				height: auto
+	.section
+		&-title
+			&-rating
+				margin-bottom: 70px
+			&-small
+				margin-bottom: 30px
+			&-price
+				margin-bottom: 25px
+			&-social
+				text-align: center
+	.rating
+		&-block
+			&-steps
+				margin-bottom: 65px
+		&-img
+			&-one
+				display: none
+			&-two
+				width: 520px
+				bottom: -20px
+				transform: translateX(350px)
+		&-stat
+			&-img
+				height: 326px
+	.joinCommand
+		.block
+			align-items: center
+		&-text
+			max-width: 320px
+			.section-title
+				font-size: 24px
+				line-height: 29px
+			.text-subtitle
+				font-size: 16px
+				line-height: 19px
+		&-img
+			height: 232px
+	.joinHelp
+		&-article
+			max-width: none
+			&__point
+				&:last-child
+					margin-bottom: 56px
+		&-point
+			&__descr
+				br 
+					display: none
+		&-warn
+			max-width: none
+	.joinForm
+		margin-bottom: 36px
+		.block
+			.section-title
+				br
+					display: none
+		.form
+			&-group
+				max-width: 320px
+				&-pay
+					max-width: 310px
+			&-check
+				max-width: none
+	.stat
+		&-img
+			width: 219px
+			height: auto
+			&-2
+				left: 236px
+	.text
+		&-subtitle
+			&-price
+				max-width: 480px
+				margin-bottom: 50px
+			&-social
+				text-align: center
+	.price
+		&-block
+			&-card
+				height: 310px
+			&-result
+				flex-direction: column
+				align-items: center
+		&-card
+			width: 208px
+			height: 250px
+			&-text
+				height: 97px
+			&-title
+				font-size: 16px
+				line-height: 19px
+			&-old
+				font-size: 16px
+				line-height: 21px
+				&:before
+					width: 80px
+			&-new
+				font-size: 21px
+    line-height: 26px
+				margin-bottom: 0
+		&-result
+			max-width: 420px
+			width: 100%
+			margin-bottom: 25px
+			&:last-child
+				margin-bottom: 0
+	.card
+		&-hot
+			width: 189px
+			height: 27px
+			font-size: 11px
+	.questions
+		&-article
+			line-height: 17px
+			font-size: 14px
+			height: 45px
+			&:before
+				top: 45%
+		&-answer
+			font-size: 18px
+			line-height: 29px
+	.start
+		&-parallax
+			&-bg
+				width: 120%
+    height: 150vh
+	.social
+		padding: 90px 0px
+		&-block
+			&-text
+				max-width: 650px	
+				margin-bottom: 65px
+	.footer
+		padding: 30px 0px
+@media screen and ( max-width: 767px )
+	.joinCommand
+		.block
+			width: 540px
+			flex-direction: column-reverse
+		&-text
+			max-width: none
+		&-img
+			height: auto
+			width: 100%
+			img
+				width: 100%
+				height: auto
+	.joinHelp, .joinForm
+		.block
+			max-width: 540px
+
+	.joinForm
+		.form
+			&-group
+				max-width: none
+			&-check
+				align-items: flex-start
+			&-list
+				.text
+					&-center
+						margin-bottom: 24px
+						width: 100%
+						text-align: center
+@media screen and ( max-width: 575px )
+	.block
+		max-width: 290px
+		padding: 0px 15px
+		&-menu
+			max-width: none
+			flex-direction: column-reverse
+			justify-content: center
+			padding: 0
+		&-trainers
+			box-sizing: border-box
+			max-width: none
+			padding-left: 0
+			padding-right: 0
+		&-command
+			box-sizing: border-box
+			max-width: none
+			padding-left: 30px
+			padding-right: 30px
+			width: 100%
+	.command
+		padding-top: 48px
+		padding-bottom: 56px
+		&-card
+			&:last-child
+				margin-right: 30px
+	
+	.topPlayer
+		&-card
+			width: 248px
+			max-height: 358px
+			margin: 0 auto
+		&-photo
+			margin-bottom: 22px
+			width: 150px
+			height: 150px
+		&-name
+			margin-bottom: 14px
+		&-rating
+			width: 120px
+			height: 45px
+			padding: 0px 20px
+			margin-bottom: 14px
+		&-info
+			font-size: 14px
+			
+
+	.section
+		&-title
+			font-size: 24px
+			line-height: 29px
+			&-header
+				br
+					display: none
+			&-trainers
+				max-width: 288px
+				text-align: center
+				margin-left: auto
+				margin-right: auto
+			&-rating
+				margin-bottom: 30px
+			&-small
+				font-size: 21px
+				line-height: 25px
+				br
+					display: block
+			&-start
+				margin-bottom: 15px
+			&-help
+				margin-bottom: 32px
+	.menu
+		padding: 15px
+		&-panel
+			width: 100%
+			margin-bottom: 15px
+		&-logo
+			width: 285px
+			height: 35px
+	.header
+		background: linear-gradient(0deg, rgba(23,24,26,0.8), rgba(23,24,26,0.8)),url(../img/bg.png) no-repeat 51%
+		background-size: cover
+		padding-bottom: 65px
+		margin-bottom: 65px
+		&-block
+			&-advantages
+				margin-bottom: 0
+		&-advantages
+			&:last-child
+				margin-bottom: 0
+		&-img
+			width: 288px
+			&-two
+				margin-bottom: 40px
+	.block
+		&-button
+			&-header
+				display: none
+				&-mobile
+					display: flex	
+					flex-direction: column
+					height: 123px
+					justify-content: space-between
+					max-width: 162px	
+			&-start
+				width: 252px
+				height: 40px
+				a
+					height: 40px
+					width: 118px
+	.topPlayer
+		padding-top: 48px
+		padding-bottom: 48px
+	.trainers
+		&-box
+			flex-direction: column
+			height: auto
+		&-phone
+			&-img
+				display: block
+				position: static
+				left: auto
+				top: auto
+				margin: 0 auto
+		&-slider
+			&-card
+				width: 240px!important
+				height: 320px!important
+				margin-left: 30px!important
+				margin-right: 30px!important	
+		&-card
+			&-photo
+				margin: 0 auto
+				margin-bottom: 19px
+				img
+					width: 126px
+					height: 128px
+	.carousel
+		width: 320px
+		margin-bottom: 25px
+		&:before
+			display: none
+		.owl-item
+		.disabled
+			display: none
+		.over-x-hidden
+			overflow: unset
+			width: 100%
+			margin-right: 0
+	.rating
+		margin-bottom: 0
+		&-block
+			&-steps
+				margin-bottom: 55px
+		&-steps
+			flex-direction: column
+			margin-bottom: 45px
+			&-three
+				margin-bottom: 0
+		&-stat
+			&-img
+				height: 432px
+		&-img
+			&-two
+				bottom: -80px
+	.joinCommand
+		&-text
+			padding-top: 25px
+			padding-bottom: 0
+			.text-subtitle
+				margin-bottom: 32px
+		&-img
+			height: auto
+			width: 100%
+			img
+				width: 100%
+				height: auto
+	.joinHelp
+		&-descr
+			margin-top: 48px
+			font-size: 16px
+			line-height: 24px
+			text-align: left
+		&-article
+			&__point
+				margin-bottom: 40px
+				&:last-child
+					margin-bottom: 79px
+		&-point
+			&__descr
+				font-size: 16px
+				line-height: 24px
+		&-warn
+			padding: 24px 16px
+	.joinForm
+		.section
+			&-title
+				text-align: left
+				margin-bottom: 32px
+		.actions
+			margin-top: 8px
+	
+	.stat
+		&-img
+			width: 290px
+			left: 10px
+			&-3
+				right: auto
+	.text
+		&-subtitle
+			font-size: 16px
+			line-height: 19px
+			margin-bottom: 16px
+			font-weight: 600
+			&-price
+				margin-bottom: 40px
+			&-start
+				margin-bottom: 65px
+	.link
+		&-rtg
+			height: 96px
+			
+	.price
+		&-block
+			&-card
+				flex-direction: column
+				height: auto
+		&-card
+			position: static
+			margin-bottom: 25px
+			height: 346px
+			width: 288px
+			padding-bottom: 66px
+			&-gold
+				transform: translateX(0)
+				margin-bottom: 75px
+			&-text
+				height: 137px
+			&-title
+				font-size: 24px
+				line-height: 29px
+			&-old
+				font-size: 24px
+				line-height: 32px
+				&:before
+					width: 110px
+					bottom: 15px
+			&-new
+				font-size: 32px
+				line-height: 39px
+	.card
+		&-hot
+			bottom: -50px
+			width: 261px
+			height: 37px
+			font-size: 16px
+			line-height: 19px
+	.help
+		padding: 65px 0px
+	.questions
+		&-article
+			height: auto
+			padding: 16px 54px 16px 16px
+			font-size: 16px 
+			line-height: 19px
+		&-answer
+			padding: 16px 0px 0px 16px
+			font-size: 16px
+			line-height: 22px
+	.start
+		height: 318px
+
+	
+
+
